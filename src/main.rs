@@ -1,8 +1,7 @@
-use crate::guessing_game::guessing_game;
+use crate::chapter_3::fibonacci;
 
-mod guessing_game;
+mod chapter_3;
 
 fn main() {
-    guessing_game()
+    fibonacci(180);
 }
-
